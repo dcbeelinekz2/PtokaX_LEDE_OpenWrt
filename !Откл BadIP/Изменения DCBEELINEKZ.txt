@@ -1,0 +1,19 @@
+	DCBEELINEKZ 
+
+- Выкл LAN_IN_COMMAND_HUB_REPLACED_IT_WITH_YOUR_REAL_IP -3950
+- Удалил проверку с плохим $Support  -2620
+  alex82 ... Удалили бессмысленную опцию "Отключать клиенты, отправляющие $Supports с ошибками", поскольку "ошибками" считается только лишний пробел в конце команды.
+- Заменил stdinc.h от mod11 alex82 + изменил текст 0.5.0.1 rafa -95
+- HubCommands.cpp изменил Version: DCBEELINEKZ -4637
+  PtokaX-nix.cpp -59 
+- Добавил ValidateDenideArrival -3559-3587
+  LuaScriptManager.h VALIDATE_DENIDE_ARRIVAL, -61
+  LuaScriptManager.cpp 0x400000, -755 (+) и "ValidateDenideArrival" -778
+- serviceLoop.cpp Местами поменял SIGSCRTMR в:(+)
+  alex82 ... Переместили сюда обработку таймеров, и тем самым повысили точность срабатывания в 2 раза -90
+
+  не пашет на LEDE!!! 
+- SettingManager.cpp if(strlen(SetBoolXmlStr[szi]) == 0) { (Теперь сохраняет в файл все настройки) -389
+  SettingManager.cpp motd по умолчанию 10 строк - DCBEELINKZ -173
+  SettingDefaults.h мелкий настр (адрес 0.0.0.0)
+  
