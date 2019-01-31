@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="windows-1252" standalone="yes" ?>
+<PtokaX Version="0.5.0.1">
+    <Booleans>
+        <Bool Name="RedirectWhenHubFull">0</Bool>
+        <Bool Name="AutoRegister">0</Bool>
+        <Bool Name="ShareLimitRedir">0</Bool>
+        <Bool Name="ModeToMyINFO">0</Bool>
+        <Bool Name="StripDescription">1</Bool>
+        <Bool Name="StripConnection">1</Bool>
+        <Bool Name="StripEmail">1</Bool>
+        <Bool Name="RegOpChat">0</Bool>
+        <Bool Name="TempBanRedir">0</Bool>
+        <Bool Name="PermBanRedir">0</Bool>
+        <Bool Name="KeepSlowUsers">0</Bool>
+        <Bool Name="CheckNewReleases">0</Bool>
+        <Bool Name="EnableTrayIcon">0</Bool>
+        <Bool Name="SendKickMessagesToOps">0</Bool>
+        <Bool Name="SendStatusMessages">0</Bool>
+        <Bool Name="SendTextFilesAsPm">1</Bool>
+        <Bool Name="StopScriptOnError">1</Bool>
+        <Bool Name="DefloodReport">1</Bool>
+        <Bool Name="ReplyToHubCommandsAsPm">1</Bool>
+        <Bool Name="DontAllowPingers">1</Bool>
+        <Bool Name="BanMessageShowIp">0</Bool>
+        <Bool Name="BanMessageShowRange">0</Bool>
+        <Bool Name="BanMessageShowNick">0</Bool>
+        <Bool Name="BanMessageShowReason">0</Bool>
+        <Bool Name="BanMessageShowBy">0</Bool>
+        <Bool Name="ReportSuspiciousTag">0</Bool>
+        <Bool Name="LogScriptErrors">1</Bool>
+    </Booleans>
+    <Integers>
+        <Integer Name="MaxUsers">33</Integer>
+        <Integer Name="MaxChatLen">0</Integer>
+        <Integer Name="MaxChatLines">0</Integer>
+        <Integer Name="MaxPmLen">0</Integer>
+        <Integer Name="MaxPmLines">0</Integer>
+        <Integer Name="DefaultTempBanTime">15000</Integer>
+        <Integer Name="MaxPassiveSr">1</Integer>
+        <Integer Name="MainChatAction">0</Integer>
+        <Integer Name="SameMainChatAction">0</Integer>
+        <Integer Name="SameMultiMainChatAction">0</Integer>
+        <Integer Name="PmAction">0</Integer>
+        <Integer Name="SamePmAction">0</Integer>
+        <Integer Name="SameMultiPmAction">0</Integer>
+        <Integer Name="SearchAction">0</Integer>
+        <Integer Name="SameSearchAction">0</Integer>
+        <Integer Name="MyINFOAction">0</Integer>
+        <Integer Name="GetNickListAction">0</Integer>
+        <Integer Name="DefloodWarningAction">0</Integer>
+        <Integer Name="GlobalMainChatAction">0</Integer>
+        <Integer Name="MinSearchLen">0</Integer>
+        <Integer Name="MaxSearchLen">0</Integer>
+        <Integer Name="BruteForcePassProtectBanType">0</Integer>
+        <Integer Name="MainChatAction2">0</Integer>
+        <Integer Name="PmAction2">0</Integer>
+        <Integer Name="SearchAction2">0</Integer>
+        <Integer Name="MyINFOAction2">0</Integer>
+        <Integer Name="CTMAction">0</Integer>
+        <Integer Name="RCTMAction">0</Integer>
+        <Integer Name="RCTMAction2">0</Integer>
+        <Integer Name="SRAction">0</Integer>
+        <Integer Name="MaxDownAction">0</Integer>
+        <Integer Name="MaxDownAction2">0</Integer>
+        <Integer Name="MaxConnSameIP">3</Integer>
+        <Integer Name="MinReConnTime">30</Integer>
+        <Integer Name="MaxUsersPeak">15</Integer>
+    </Integers>
+    <Strings>
+        <String Name="HubName">#DCBEELINEKZ</String>
+        <String Name="AdminNick">DCBEELINEKZ</String>
+        <String Name="HubAddress">192.168.1.2</String>
+        <String Name="TCPPorts">411</String>
+        <String Name="HubTopic">ÏÎÑËÅÄÍÈÉ ÃÅÐÎÉ</String>
+        <String Name="BotNick">DCBEELINEKZ</String>
+        <String Name="Language">Russian</String>
+    </Strings>
+</PtokaX>

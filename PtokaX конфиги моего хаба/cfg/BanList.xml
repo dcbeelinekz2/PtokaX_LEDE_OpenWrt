@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1252" standalone="yes" ?>
+<BanList version="2">
+    <Bans>
+        <Ban>
+            <Type>0</Type>
+            <IP>10.40.2.72</IP>
+            <Nick></Nick>
+            <Reason></Reason>
+            <By>DCHUB</By>
+            <NickBan>0</NickBan>
+            <IpBan>1</IpBan>
+            <FullIpBan>0</FullIpBan>
+            <Expire>0</Expire>
+        </Ban>
+    </Bans>
+    <RangeBans>
+        <RangeBan>
+            <Type>0</Type>
+            <IpFrom>66.192.0.0</IpFrom>
+            <IpTo>66.195.255.255</IpTo>
+            <Reason>Example_Reason</Reason>
+            <By>PPK</By>
+            <FullIpBan>0</FullIpBan>
+            <Expire>0</Expire>
+        </RangeBan>
+        <RangeBan>
+            <Type>0</Type>
+            <IpFrom>10.16.40.2</IpFrom>
+            <IpTo>10.16.40.255</IpTo>
+            <Reason></Reason>
+            <By>DCHUB</By>
+            <FullIpBan>1</FullIpBan>
+            <Expire>0</Expire>
+        </RangeBan>
+    </RangeBans>
+</BanList>
