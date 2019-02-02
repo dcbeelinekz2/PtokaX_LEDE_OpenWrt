@@ -1,0 +1,19 @@
+--- a/core/TextConverter.cpp	2017-03-19 12:30:04.000000000 +0000
++++ b/core/TextConverter1.cpp	2017-05-06 19:46:09.000000000 +0100
+@@ -53,11 +53,11 @@
+ 		exit(EXIT_FAILURE);
+ 	}
+ 
+-	m_iconvAsciiToUtf = iconv_open("utf-8//TRANSLIT//IGNORE", SettingManager::m_Ptr->m_sTexts[SETTXT_ENCODING]);
+-	if(m_iconvAsciiToUtf == (iconv_t)-1) {
+-		AppendLog("TextConverter iconv_open for m_iconvAsciiToUtf failed!");
+-		exit(EXIT_FAILURE);
+-	}
++//	m_iconvAsciiToUtf = iconv_open("utf-8//TRANSLIT//IGNORE", SettingManager::m_Ptr->m_sTexts[SETTXT_ENCODING]);
++//	if(m_iconvAsciiToUtf == (iconv_t)-1) {
++//		AppendLog("TextConverter iconv_open for m_iconvAsciiToUtf failed!");
++//		exit(EXIT_FAILURE);
++//	}
+ #endif
+ }
+ //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

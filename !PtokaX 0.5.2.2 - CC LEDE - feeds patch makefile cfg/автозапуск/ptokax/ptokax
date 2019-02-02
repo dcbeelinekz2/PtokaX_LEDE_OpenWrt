@@ -1,0 +1,17 @@
+#!/bin/sh /etc/rc.common
+
+START=98
+
+start() {
+ PtokaX -d -c /root/.PtokaX
+}
+
+stop() {
+ killall PtokaX > /dev/null
+}
+
+restart() {
+ killall PtokaX > /dev/null
+ sleep 1
+ PtokaX -d -c /root/.PtokaX
+}
